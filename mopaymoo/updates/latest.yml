@@ -1,8 +1,8 @@
-version: 0.1.9
+version: 0.2.0
 files:
-  - url: https://github.com/GianniBoss/GianniBoss.github.io/releases/download/v0.1.9/Mopaymo-Setup-0.1.9.exe
-    sha512: DiY7Hq05eui+8qo74F71lcAHntTecZEGkpLu8WFav8B9ifA35AGrl1e7Nqf52n/JYKkZV8HZsc9N7LStNW74XA==
-    size: 128682523
-path: https://github.com/GianniBoss/GianniBoss.github.io/releases/download/v0.1.9/Mopaymo-Setup-0.1.9.exe
-sha512: DiY7Hq05eui+8qo74F71lcAHntTecZEGkpLu8WFav8B9ifA35AGrl1e7Nqf52n/JYKkZV8HZsc9N7LStNW74XA==
-releaseDate: '2026-11-17T22:04:17.262Z'
+  - url: https://github.com/GianniBoss/GianniBoss.github.io/releases/download/v0.2.0/Mopaymo-Setup-0.2.0.exe
+    sha512: /HSb3waw4uzBoaPPqzMUJHudzJL0Tr02qY4Cxue1Rr329hpBdXPg8i4rsrfJKeNkkMLNu/hYCx4HzvTgjewdNA==
+    size: 128683389
+path: https://github.com/GianniBoss/GianniBoss.github.io/releases/download/v0.2.0/Mopaymo-Setup-0.2.0.exe
+sha512: /HSb3waw4uzBoaPPqzMUJHudzJL0Tr02qY4Cxue1Rr329hpBdXPg8i4rsrfJKeNkkMLNu/hYCx4HzvTgjewdNA==
+releaseDate: '2026-11-18T00:38:16.059Z'
