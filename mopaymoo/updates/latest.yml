@@ -1,17 +1,12 @@
-version: 0.7.0
+version: 0.7.1
 files:
-  - url: https://github.com/GianniBoss/GianniBoss.github.io/releases/download/v0.7.0/Mopaymo-Setup-0.7.0.exe
-    sha512: WqdrBw7weiPrDcGGTA6yRz21pNSHSrSimXF2emNnC3oh5ymcjlF2amHEUbCVYF7kIHHp3AHS13uT4h05RuubBg==
-    size: 133391408
-path: https://github.com/GianniBoss/GianniBoss.github.io/releases/download/v0.7.0/Mopaymo-Setup-0.7.0.exe
-sha512: WqdrBw7weiPrDcGGTA6yRz21pNSHSrSimXF2emNnC3oh5ymcjlF2amHEUbCVYF7kIHHp3AHS13uT4h05RuubBg==
-releaseDate: '2026-11-23T21:48:46.848Z'
+  - url: https://github.com/GianniBoss/GianniBoss.github.io/releases/download/v0.7.1/Mopaymo-Setup-0.7.1.exe
+    sha512: fJO8BNMJJBcxu50Th4W9r1ox0Ac9rJ1/EgngX14LELO9mcVvFnX7tDId0SdOhRnycXjhrzKm/i3rG4qy2iN9+w==
+    size: 133390251
+path: https://github.com/GianniBoss/GianniBoss.github.io/releases/download/v0.7.1/Mopaymo-Setup-0.7.1.exe
+sha512: fJO8BNMJJBcxu50Th4W9r1ox0Ac9rJ1/EgngX14LELO9mcVvFnX7tDId0SdOhRnycXjhrzKm/i3rG4qy2iN9+w==
+releaseDate: '2026-11-23T23:07:11.691Z'
 releaseNotes: |-
-  - Se corrige el actualizador: ahora hay una opciÃ³n persistente para activar la descarga e instalaciÃ³n automÃ¡ticas; avisa 60 segundos antes de reiniciar y permite cancelar el reinicio desactivÃ¡ndola.
-  - Se habilita la distribuciÃ³n pÃºblica de esta versiÃ³n desde GitHub Releases y el feed de actualizaciÃ³n.
-  - Endurecimiento de compras: filtros compartidos entre estrategia, simulaciÃ³n y entorno real; validaciÃ³n repetida con el importe final, costes completos y cartera fresca completamente valorable.
-  - CalibraciÃ³n histÃ³rica separada de los lÃ­mites configurados en Ajustes; ventas reductoras de riesgo no se bloquean por filtros exclusivos de entrada.
-  - Salidas de protecciÃ³n deterministas, enfriamientos resistentes a fechas invÃ¡lidas, control de envÃ­os simultÃ¡neos y estados inciertos que evitan Ã³rdenes duplicadas.
-  - Registro de fills, precio medio y comisiones confirmadas cuando el exchange los ofrece; costes base incompletos quedan identificados como desconocidos.
-  - La cartera real muestra un resultado neto de liquidaciÃ³n solo con saldo conciliado y cotizaciÃ³n vigente; el trailing stop conserva su protecciÃ³n tras reversiÃ³n por debajo del punto de equilibrio.
-  - CorrecciÃ³n de mensajes de modo real y del texto con caracteres daÃ±ados en los diagnÃ³sticos.
+  - El seguimiento automático por IA se activa al instalarse si aún no existía una preferencia guardada; un apagado explícito del usuario se conserva. Solo afecta al modo simulado.
+  - Una propuesta de compra del Diseñador ahora debe coincidir con el pronóstico alcista validado y superar los filtros locales de probabilidad, confianza, costes, liquidez e historial antes de pasar a Riesgo.
+  - Las propuestas incoherentes se convierten en espera y muestran los bloqueos concretos en la revisión del comité.
